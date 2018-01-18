@@ -39,7 +39,7 @@ def test_example(client):
 
 @pytest.mark.django_db
 def test_example(client):
-    response = client.get('/shop/profile_order/')
+    response = client.get('/shop/pprofile/order/')
     assert response.status_code == 401
 
 
